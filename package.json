@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "prettier": "prettier --write './**/*.{ts,html,scss}'",
-    "prettier:check": "prettier --check './**/*.{ts,html,scss}'"
+    "prettier:check": "prettier --check './**/*.{ts,html,scss}'",
+    "stylelint": "stylelint './**/*.scss'"
   },
   "private": true,
   "dependencies": {
