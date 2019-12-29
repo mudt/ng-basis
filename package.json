@@ -9,6 +9,7 @@
     "test:ci": "test --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "e2e:ci": "ng e2e --protractor-config=e2e/protractor-ci.config.js",
     "prettier": "prettier --write './**/*.{ts,html,scss}'",
     "prettier:check": "prettier --check './**/*.{ts,html,scss}'",
     "stylelint": "stylelint './**/*.scss'"
